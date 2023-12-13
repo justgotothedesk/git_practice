@@ -49,6 +49,6 @@ def logout():
     session.clear()
 
 if __name__ == '__main__':
-    # app.run(debug=False, host='0.0.0.0')    # 서버 연결할 때 사용
+    app.run(debug=False, host='0.0.0.0')    # 서버 연결할 때 사용
     print("hi back_end server started")
-    app.run(debug = False, port = 5000)  #로컬에서 실험할 때 사용
+    #app.run(debug = False, port = 5000)  #로컬에서 실험할 때 사용
